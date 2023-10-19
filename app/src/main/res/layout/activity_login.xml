@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="280dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector_login" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="460dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="MASUK"
+        android:background="@drawable/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="145dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="MASUK DENGAN GOOGLE"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:backgroundTint="@color/abu_muda"
+        app:strokeColor="@color/abu_muda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="515dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="------------ Atau ------------"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/belumpunya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="635dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Belum punya akun ?"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.380"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="635dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Daftar"
+        android:textColor="@color/biru"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.730"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="304dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/edit_text"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        android:paddingStart="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="370dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/edit_text"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        android:paddingStart="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Lupa Password?"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pass"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/emil"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/emil"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/email"
+        app:layout_constraintBottom_toBottomOf="@id/email"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/key"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/key"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintStart_toStartOf="@id/pass"
+        app:layout_constraintBottom_toBottomOf="@id/pass"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="12dp"
+        app:srcCompat="@drawable/gugel"
+        app:layout_constraintStart_toStartOf="@id/button3"
+        app:layout_constraintBottom_toBottomOf="@id/button3"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

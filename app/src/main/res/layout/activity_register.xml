@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="800dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/daftar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Daftar"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/edit_text2"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Nama"
+        android:inputType="text"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cpass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="358dp"
+        android:background="@drawable/edit_text2"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Konfirmasi Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/notelp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="428dp"
+        android:background="@drawable/edit_text2"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="No Telepon"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="218dp"
+        android:background="@drawable/edit_text2"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/edit_text2"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttondaftar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="512dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_bold"
+        android:text="DAFTAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sudahpunya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="635dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Sudah punya akun ?"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.380"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="635dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Masuk"
+        android:textColor="@color/biru"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.730"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/emil"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/emil"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/email2"
+        app:layout_constraintBottom_toBottomOf="@id/email2"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/namas"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/nama"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/nama"
+        app:layout_constraintBottom_toBottomOf="@id/nama"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/passw"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/key"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/pass2"
+        app:layout_constraintBottom_toBottomOf="@id/pass2"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/passwc"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/key"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/cpass"
+        app:layout_constraintBottom_toBottomOf="@id/cpass"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/tlp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/tlpn"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="@id/notelp"
+        app:layout_constraintBottom_toBottomOf="@id/notelp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
